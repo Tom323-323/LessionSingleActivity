@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeaponsApp</string>
+    <string name="screen_1">Screen #1</string>
+    <string name="nullS">null</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+</resources>
