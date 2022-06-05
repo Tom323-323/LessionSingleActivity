@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/closeSecret"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -31,24 +31,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/closeToStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="open secret"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="@+id/closeSecret"
+        app:layout_constraintStart_toStartOf="@+id/closeSecret"
+        app:layout_constraintTop_toBottomOf="@+id/closeSecret" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/generateNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="generate number"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintEnd_toEndOf="@+id/closeToStart"
+        app:layout_constraintStart_toStartOf="@+id/closeToStart"
+        app:layout_constraintTop_toBottomOf="@+id/closeToStart" />
 </androidx.constraintlayout.widget.ConstraintLayout>
