@@ -18,10 +18,10 @@ class RootFragment: Fragment(R.layout.fragment_root) {
         binding = FragmentRootBinding.bind(view)
 
         binding.openGreen.setOnClickListener {
-            openBox(Color.rgb(255,255,200))
+            openBox(Color.rgb(200,255,200))
         }
         binding.openYellow.setOnClickListener {
-            openBox(Color.rgb(200,255,200))
+            openBox(Color.rgb(255,255,200))
         }
 
         parentFragmentManager.setFragmentResultListener(BoxFragment.REQUEST_CODE,viewLifecycleOwner){_,data ->

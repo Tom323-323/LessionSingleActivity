@@ -18,8 +18,8 @@ class SecretFragment : Fragment(R.layout.fragment_secret){
             findNavController().popBackStack()
         }
 
-        binding.closeToStart.setOnClickListener {
-            findNavController().popBackStack(R.id.action_rootFragment_to_boxFragment,false)
+        binding.toStart.setOnClickListener {
+            findNavController().popBackStack(R.id.rootFragment,false)
 
         }
 
