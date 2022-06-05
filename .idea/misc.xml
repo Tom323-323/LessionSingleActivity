@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/WeaponsApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/WeaponsApp/app/src/main/res/layout/fragment_box.xml" value="0.22" />
         <entry key="..\:/WeaponsApp/app/src/main/res/layout/fragment_container.xml" value="0.36666666666666664" />
+        <entry key="..\:/WeaponsApp/app/src/main/res/layout/fragment_root.xml" value="0.365625" />
+        <entry key="..\:/WeaponsApp/app/src/main/res/layout/fragment_secret.xml" value="0.3" />
       </map>
     </option>
   </component>
